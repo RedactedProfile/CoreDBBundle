@@ -1,0 +1,25 @@
+{
+    "name": "kh/coredb",
+    "type": "symfony-bundle",
+    "description": "ActiveRecord style SQLess Database Engine for SQLite3, inspired by iOS CoreData Wrapper",
+    "keywords": ["sqlite", "db", "database", "coredata", "coredb", "kyle", "harrison"],
+    "homepage": "http://github.com/DJDarkViper/CoreDBBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Harrison",
+            "email": "kyle@kyleharrison.ca"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.1"
+    },
+    "autoload": {
+        "psr-0": { "KH\\CoreDB": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "KH/CoreDB"
+}
